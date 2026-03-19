@@ -73,7 +73,7 @@ npm run report
 npm run lint
 ```
 
-## Suggested GitHub repo description
+## Repo description
 
 > Playwright + TypeScript automation framework showcasing UI testing, API validation, page objects, CI integration, and cross-browser execution.
 
