@@ -1,0 +1,20 @@
+{
+  "name": "playwright-showcase-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A showcase Playwright automation framework using TypeScript, Page Objects, API testing, fixtures, and GitHub Actions.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  }
+}
